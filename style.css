@@ -76,6 +76,23 @@ main {
 .login-box button:hover {
   background-color: #0a4e33;
 }
+/* --- Tombol Lupa Password --- */
+.forgot-password {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.forgot-password a {
+  color: #0b5c3b;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.forgot-password a:hover {
+  color: #067a4f;
+  text-shadow: 0 0 5px rgba(11, 92, 59, 0.3);
+}
 
 /* ===== Footer ===== */
 footer {

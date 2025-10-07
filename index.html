@@ -21,6 +21,9 @@
           <input type="text" placeholder="Username" required />
           <input type="password" placeholder="Password" required />
           <button type="submit">Masuk</button>
+          <div class="forgot-password">
+            <a href="#" id="forgotPasswordBtn">Lupa Password?</a>
+          </div>
         </form>
       </div>
     </main>
@@ -30,5 +33,15 @@
       <p>Telepon: (021) 1234-5678 | Email: info@darunnajah.ac.id</p>
       <p>&copy; 2025 Universitas Darunnajah</p>
     </footer>
+    <script>
+      document
+        .getElementById("forgotPasswordBtn")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          alert(
+            "Silakan hubungi admin atau bagian akademik untuk reset password Anda."
+          );
+        });
+    </script>
   </body>
 </html>
